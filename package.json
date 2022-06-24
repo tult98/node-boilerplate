@@ -1,0 +1,23 @@
+{
+  "name": "blog-api",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "ts-check": "tsc --noEmit",
+    "dev": "nodemon"
+  },
+  "keywords": [],
+  "author": "",
+  "description": "",
+  "dependencies": {
+    "apollo-server": "^3.9.0",
+    "graphql": "^16.5.0"
+  },
+  "devDependencies": {
+    "esbuild": "^0.14.47",
+    "esbuild-node-tsc": "^1.8.6",
+    "nodemon": "^2.0.18",
+    "typescript": "^4.7.4"
+  }
+}
